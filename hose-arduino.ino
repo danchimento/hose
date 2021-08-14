@@ -150,7 +150,7 @@ void loop() {
               Serial.println("RedirectToApp = true");
               client.println("HTTP/1.1 301 Moved Permanently");
               client.println("Content-Type: text/html");
-              client.println("Location: https://sc4po5rewd.appflowapp.com/");
+              client.println("Location: https://1wfglp2xbu.appflowapp.com");
               client.println("Connection: close");  // the connection will be closed after completion of the response
               client.println();
               break;
